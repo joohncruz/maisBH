@@ -8,7 +8,7 @@
 	  <ion-list>
 	      <ion-item ng-repeat="video in lista" class="video">
 	      <h2>{{video.snippet.title}}</h2>
-	        <img src="{{video.snippet.thumbnails.medium.url}}" alt="YoutubeVideo" />
+	        <a href="#" ng-click="abrirVideo('{{video.id.videoId}}')"><img src="{{video.snippet.thumbnails.medium.url}}" alt="Firmino" /></a>
 	      </ion-item>
     </ion-list>
 	</ion-content>
