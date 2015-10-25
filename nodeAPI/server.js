@@ -13,6 +13,9 @@ router.get('/', function(req, res) {
 	res.json({ message: 'TESTE' });
 });
 
+router.get('/instagram', function(req, res) { 
+	res.json({ message: 'TESTE' });
+});
 
 app.use('/api', router); 
 
