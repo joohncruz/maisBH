@@ -1,1 +1,7 @@
 /* Empty. Add your own CSS if you like */
+
+.video h2{
+	font-weight: bold;
+	white-space: initial;
+	overflow: hidden;
+}
