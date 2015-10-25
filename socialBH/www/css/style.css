@@ -18,3 +18,7 @@
 	white-space: initial;
 	overflow: hidden;
 }
+.semBorda{
+
+	border:white solid 0px;
+}
