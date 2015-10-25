@@ -5,3 +5,7 @@
 	white-space: initial;
 	overflow: hidden;
 }
+
+.video img {
+	max-width: 100%;
+}
