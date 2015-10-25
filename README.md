@@ -21,6 +21,8 @@ Node Version: v4.2.1
 
 Alvaro Lemos <a href="https://www.linkedin.com/in/alvarolemos" targer="_blank" >Likedin</a><br />
 
+Jonathan Cruz Rocha Ferreira <a href="https://br.linkedin.com/in/joohncruz" targer="_blank" >Likedin</a>-<a href="https://twitter.com/joohncruz" targer="_blank" >Twitter</a> <br />
+
 Luiz Santos <a href="https://www.linkedin.com/in/LuizSD" targer="_blank" >Likedin</a>-<a href="https://twitter.com/luizsdl" targer="_blank" >Twitter</a> <br />
 
 Rangel Soares <a href="https://www.facebook.com/geeh.all.18" targer="_blank" >Facebook</a>-<a href="https://github.com/geeh-xx" targer="_blank" >Github</a>-<a href="https://br.linkedin.com/in/rangelsoares" targer="_blank" >Likedin</a>-<a href="https://twitter.com/Geeh_All" targer="_blank" >Twitter</a><br/>
