@@ -7,7 +7,10 @@ angular.module('starter.facebook', [])
 			  var urlTimeLine = "https://graph.facebook.com/prefeiturabh/posts?fields=object_id,link,icon,source,picture,id,type,message&" + response.data;
 			  $http.get(urlTimeLine).then(function(resp) {
 			      $scope.lista = resp.data.data;
-			      console.log($scope.lista);
+			      for(x = 0; x < $scope.lista.length; x++){
+				      var urlPicture = "https://graph.facebook.com/" + $scope.lista[x].object_id + "/picture?" + response.data;
+				      $scope.lista[x].urlImg = urlPicture;
+				    }
 			   })
 			})
 

@@ -5,9 +5,9 @@
 	</ion-nav-buttons>
 
 	<ion-content>
-	  <ion-item class="post">
-        <p>titulo</p>
-        img
+	  <ion-item ng-repeat="post in lista" class="post">
+        <p>{{post.message}}</p>
+        <a href="{{post.link}}"><img src="{{post.urlImg}}"  alt="{{post.id}}"/></a>
       </ion-item>
 	</ion-content>
 
