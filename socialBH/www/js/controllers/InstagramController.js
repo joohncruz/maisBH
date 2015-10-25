@@ -1,21 +1,15 @@
 angular.module('starter.instagram', [])
 
-.controller('InstagramController', function($scope, $state, $http) {
+.controller('InstagramController', function($scope, $state,$http, $ionicLoading, $ionicPopup) {
 
-	console.log('trace - InstagramController');
+	$ionicLoading.show();
 
-	
-	$http.get("https://api.instagram.com/v1/users/2234801162/media/recent/?access_token=31199858.630b037.213c407ea1e1498dbc4950c58ee7face")
-	.then(function(response) {
-		console.log(response);
-		//$scope.lista = response.data.items;
-	})
+	 var url = "mockinstagram.json" 
+	 $http.get(url)
+	 .then(function(response) {
+	 	$scope.lista = response.data.data;
+	 	console.log($scope.lista);
+	 })
 
-	$http.get("https://api.instagram.com/v1/users/search?q=bhumadicapordia&access_token=31199858.630b037.213c407ea1e1498dbc4950c58ee7face")
-	.then(function(response) {
-		console.log(response);
-		//$scope.lista = response.data.items;
-	})
-
-
+	$ionicLoading.hide();
 })

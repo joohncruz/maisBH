@@ -5,9 +5,20 @@
 	</ion-nav-buttons>
 
 	<ion-content>
-	  <div class="jumbotron text-center">
-	    <p>trace - Instagram Template</p>
-	  </div>
+		<ion-list>
+			<ion-item ng-repeat="post in lista" class="post">
+			  	<div class="list card">
+				  	<div class="item item-avatar">
+			      		<img src="http://www.gestaodeconcursos.com.br/site/img/logoTipoEntidade.aspx?concurso=994">
+			      		<h2>{{post.user.full_name}}</h2>
+				    </div>
+				    <div class="item item-body">		        
+				        <a href="{{post.images.low_resolution.url}}"><img class="interna" style="max-width: 100%;min-width: 100%;" src="{{post.images.low_resolution.url}}"  alt=""/></a>
+				        <p>{{post.caption.text}}</p>
+			        </div>
+			    </div>
+			</ion-item>
+		</ion-list>
 	</ion-content>
 
 </ion-view>
