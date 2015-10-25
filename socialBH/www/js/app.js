@@ -1,4 +1,4 @@
-angular.module('starter', ['ionic','starter.facebook', 'starter.instagram', 'starter.main', 'starter.menu', 'starter.twitter'])
+angular.module('starter', ['ionic', 'starter.youtube','starter.fale', 'starter.facebook', 'starter.instagram', 'starter.main', 'starter.menu', 'starter.twitter'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -62,6 +62,27 @@ angular.module('starter', ['ionic','starter.facebook', 'starter.instagram', 'sta
       }
     }
   })
+
+  .state('app.fale', {
+    url: '/fale',
+    views: {
+      'content': {
+        templateUrl: 'templates/fale.html',
+        controller: 'FaleController'
+      }
+    }
+  })
+
+  .state('app.youtube', {
+    url: '/youtube',
+    views: {
+      'content': {
+        templateUrl: 'templates/youtube.html',
+        controller: 'YoutubeController'
+      }
+    }
+  })
+
 
   $urlRouterProvider.otherwise('/app/main');
 
