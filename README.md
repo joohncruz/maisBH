@@ -7,7 +7,7 @@ Ele é um agregador de conteudo, integra varias redes sociais da prefeitura, faz
 
 <h2>Como foi feito?</h2>
 
-O MaisBH foi feito utilizando o IonicFrameWork, que utiliza de AnjularJS para o desenvolvimento do aplicativo, fazendo assim um aplicativo hibrido, além disso consumimos varias para gerar as informações via Api de  Facebook, Youtube e Twitter. 
+O MaisBH foi feito utilizando o IonicFrameWork, que utiliza de AnjularJS para o desenvolvimento do aplicativo, fazendo assim um aplicativo hibrido, além disso consumimos varias para gerar as informações via Api de  Facebook, Issuu, Youtube e Twitter. 
 
 <h2>Configurações de Sistema</h2>
 
