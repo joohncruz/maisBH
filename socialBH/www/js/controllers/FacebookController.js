@@ -12,6 +12,7 @@ angular.module('starter.facebook', [])
 		      $scope.lista[x].urlImg = urlPicture;
 		    }
 	   })
-	   $ionicLoading.hide();
+	   
 	})
+	$ionicLoading.hide();
 })

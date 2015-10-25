@@ -10,6 +10,6 @@ angular.module('starter.youtube', [])
 		    return false;
 	  	}
 		$scope.lista = response.data.items;
-		$ionicLoading.hide();
 	})
+	$ionicLoading.hide();
 })

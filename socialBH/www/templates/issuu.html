@@ -3,12 +3,12 @@
 	<ion-nav-buttons side="left">
 		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
 	</ion-nav-buttons>
+	<ion-content>
 		<ion-list>
 			<ion-item ng-repeat="post in lista" class="post">
 				<a href="http://issuu.com/prefeituradebh/docs/{{post.docname}}"><img src="http://image.isu.pub/{{post.documentId}}/jpg/page_1_thumb_large.jpg"  alt="{{post.documentId}}"/></a>
 			</ion-item>
 		</ion-list>
-	<ion-content>
 	</ion-content>
 
 </ion-view>
