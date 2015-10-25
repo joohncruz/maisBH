@@ -1,5 +1,5 @@
 # MaisBH
-<h3><a href="http://maisbh.cpdee.ufmg.br" target="_blank">Site do Projeto</a></h3>
+<h3><a href="http://www.maisbh.cpdee.ufmg.br" target="_blank">Site do Projeto</a></h3>
 
 <h2>O que é?</h2>
 
