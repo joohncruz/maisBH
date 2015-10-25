@@ -1,6 +1,7 @@
 angular.module('starter.youtube', [])
 
-.controller('YoutubeController', function($scope, $state, $http) {
+.controller('YoutubeController', function($scope, $state, $http, $ionicLoading, $ionicPopup) {
+	$ionicLoading.show();
 	$http.get("https://www.googleapis.com/youtube/v3/search?key=AIzaSyB-dQu1U88WXAsHWP2JAgSijQM6RnT1yFM&channelId=UCDH88MpQ8HqvdzRegz12dew&part=snippet,id&order=date&maxResults=20")
 	.then(function(response) {
 		$scope.abrirVideo = function(idVideo) {
@@ -9,5 +10,6 @@ angular.module('starter.youtube', [])
 		    return false;
 	  	}
 		$scope.lista = response.data.items;
+		$ionicLoading.hide();
 	})
 })
