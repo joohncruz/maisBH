@@ -6,7 +6,9 @@
 	<ion-content>
 		<ion-list>
 			<ion-item ng-repeat="post in lista" class="post">
-				<a href="http://issuu.com/prefeituradebh/docs/{{post.docname}}"><img src="http://image.isu.pub/{{post.documentId}}/jpg/page_1_thumb_large.jpg"  alt="{{post.documentId}}"/></a>
+				<div class="card">
+					<a href="http://issuu.com/prefeituradebh/docs/{{post.docname}}"><img src="http://image.isu.pub/{{post.documentId}}/jpg/page_1_thumb_large.jpg"  alt="{{post.documentId}}"/></a>
+				</div>
 			</ion-item>
 		</ion-list>
 	</ion-content>
