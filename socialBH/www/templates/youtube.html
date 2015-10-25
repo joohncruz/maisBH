@@ -5,10 +5,19 @@
 	</ion-nav-buttons>
 
 	<ion-content>
+	  
 	  <ion-list>
-	      <ion-item ng-repeat="video in lista" class="video">
-	      <h2>{{video.snippet.title}}</h2>
-	        <a href="#" ng-click="abrirVideo('{{video.id.videoId}}')"><img src="{{video.snippet.thumbnails.medium.url}}" alt="Firmino" /></a>
+	      <ion-item ng-repeat="video in lista" class="video" style="border:white solid 0px;">
+	      <div class="list card">
+		      	<div class="item item-avatar">
+		      		<img src="http://www.gestaodeconcursos.com.br/site/img/logoTipoEntidade.aspx?concurso=994">
+		      		<h2>{{video.snippet.title}}</h2>
+		      	</div>
+	      		<div class="item item-body">
+	        		<a href="#" ng-click="abrirVideo('{{video.id.videoId}}')"><img class="full-image" src="{{video.snippet.thumbnails.medium.url}}" alt="{{video.snippet.title}}" /></a>
+	        		<p>{{video.snippet.description}}</p>
+	        	</div>
+	        	</div>
 	      </ion-item>
     </ion-list>
 	</ion-content>
