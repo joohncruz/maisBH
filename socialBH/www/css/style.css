@@ -10,9 +10,9 @@
 	max-width: 100%;
 }
 
-.post img {
-	max-width: 100%;
-	min-width: 100%;
+.interna {
+	max-width: 100% ;
+	min-width: 100% ;
 }
 .post p{
 	white-space: initial;
