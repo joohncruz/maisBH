@@ -2,7 +2,8 @@
 
 <h2>O que é?</h2>
 
-O MaisBH é um projeto que surgiu durante o hackthon do GDG BH, é um aplicavito cria uma vidade mais inteligente, pois cria uma cidade mais interativa e viva para o cidadão com isso visa aumentar o papel do cidadão em sua cidade, gerando mais interação e responsabilidade social, além de torna-lo mais ativo na comunidade de belo horizonte e muito mais bem informado sobre a mesma. Ele é um agregador de conteudo, integra varias redes sociais da prefeitura, fazendo dele uma fonte de informação confiavel e muito bem alimentada. O incicio de qualquer debate ou interação social é a informação, sem ela não conseguimos evoluir juntos.
+O <strong>MaisBH</strong> é um projeto que surgiu durante o hackthon do GDG DevFest,tem como proposito o desenvolvimento de  um aplicavito para tornar a cidade mais inteligente,viabilizando uma maior interação do cidadão, com isso aumentando o papel do cidadão em sua cidade, gerando responsabilidade social,tornando mais ativo na comunidade de belo horizonte e tendo mais informação da mesma.<br />
+Ele é um agregador de conteudo, integra varias redes sociais da prefeitura, fazendo dele uma fonte de informação confiavel e muito bem alimentada. O incicio de qualquer debate ou interação social é a informação, sem ela não conseguimos evoluir juntos.
 
 <h2>Como foi feito?</h2>
 
