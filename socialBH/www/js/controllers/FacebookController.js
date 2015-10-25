@@ -1,6 +1,6 @@
 angular.module('starter.facebook', [])
 
-.controller('FacebooksController', function($scope, $state) {
+.controller('FacebookController', function($scope, $state) {
 
 	console.log('trace - FacebookController');
 
