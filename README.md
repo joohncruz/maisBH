@@ -9,7 +9,7 @@ Ele é um agregador de conteudo, integra varias redes sociais da prefeitura, faz
 
 O MaisBH foi feito utilizando o IonicFrameWork, que utiliza de AnjularJS para o desenvolvimento do aplicativo, fazendo assim um aplicativo hibrido, além disso consumimos varias para gerar as informações via Api de  Facebook, Issuu, Youtube e Twitter. 
 
-<h2>Configurações de Sistema</h2>
+<h2>Configurações do Sistema</h2>
 
 Cordova CLI: 5.3.3
 Ionic Version: 1.1.0
@@ -17,7 +17,7 @@ Ionic CLI Version: 1.7.7
 Ionic App Lib Version: 0.6.3
 Node Version: v4.2.1
 
-<h2> Participantes </h2>
+<h2> Quem fez funcionar? </h2>
 
 Alvaro Lemos <a href="https://www.linkedin.com/in/alvarolemos" targer="_blank" >Likedin</a><br />
 
