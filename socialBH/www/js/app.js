@@ -1,4 +1,4 @@
-angular.module('starter', ['ionic', 'starter.youtube','starter.fale', 'starter.facebook', 'starter.instagram', 'starter.main', 'starter.menu', 'starter.twitter'])
+angular.module('starter', ['ionic', 'starter.youtube','starter.fale', 'starter.facebook', 'starter.instagram', 'starter.main','starter.issuu', 'starter.menu', 'starter.twitter'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -79,6 +79,16 @@ angular.module('starter', ['ionic', 'starter.youtube','starter.fale', 'starter.f
       'content': {
         templateUrl: 'templates/youtube.html',
         controller: 'YoutubeController'
+      }
+    }
+  })
+
+  .state('app.issuu', {
+    url: '/issuu',
+    views: {
+      'content': {
+        templateUrl: 'templates/issuu.html',
+        controller: 'IssuuController'
       }
     }
   })
