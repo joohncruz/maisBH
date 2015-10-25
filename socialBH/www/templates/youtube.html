@@ -6,14 +6,10 @@
 
 	<ion-content>
 	  <ion-list>
-      <ion-item class="video">
-      <h2>Teste</h2>
-        item
-      </ion-item>
-      <ion-item class="video">
-      <h2>Teste</h2>
-        item
-      </ion-item>
+	      <ion-item ng-repeat="video in lista" class="video">
+	      <h2>{{video.snippet.title}}</h2>
+	        <img src="{{video.snippet.thumbnails.medium.url}}" alt="YoutubeVideo" />
+	      </ion-item>
     </ion-list>
 	</ion-content>
 
